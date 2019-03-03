@@ -4,7 +4,7 @@
 
 body {
     margin: 0 auto;
-    font-family: "";
+    font-family: "Trueno";
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -21,4 +21,105 @@ ul {
     width: 1110px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+/*Шапка*/
+.menuTop {
+    position: relative;
+}
+
+.menuTop .backImg {
+    width: 1678px;
+    height: 50px;
+    position: absolute;
+    background-color: #472424;
+    top: 0;
+    left: 50%;
+    margin-left: -839px;
+    z-index: -1;
+}
+
+.menuHead .menuLeftT a {
+    font-size: 13px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.menuBottom {
+    position: relative;
+}
+
+.menuBottom .backImg {
+    width: 1678px;
+    height: 77px;
+    position: absolute;
+    background-color: #623232;
+    top: 0;
+    left: 50%;
+    margin-left: -839px;
+    z-index: -1;
+}
+
+/*Контент*/
+
+.infProd {
+    position: relative;
+}
+
+.infProd .backImg {
+    width: 1682px;
+    height: 642px;
+    position: absolute;
+    top: -165px;
+    left: 50%;
+    margin-left: -839px;
+    z-index: -1;
+}
+
+.subscribe {
+    position: relative;
+}
+
+.subscribe .backImg {
+    width: 1682px;
+    height: 1118px;
+    position: absolute;
+    top: -165px;
+    left: 50%;
+    margin-left: -839px;
+    z-index: -1;
+}
+
+.help {
+    position: relative;
+}
+
+.help .backImg {
+    width: 1682px;
+    height: 200px;
+    position: absolute;
+    top: -164px;
+    left: 50%;
+    margin-left: -839px;
+    z-index: -1;
+    background-color: #ff7373;
+}
+
+/*Подвал*/
+
+footer {
+    position: relative;
+}
+
+footer .backImg {
+    width: 1682px;
+    height: 729px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -839px;
+    z-index: -1;
+    background-color: #623232;
 }

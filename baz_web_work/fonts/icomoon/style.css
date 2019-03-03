@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z75145');
+  src:  url('fonts/icomoon.eot?z75145#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z75145') format('truetype'),
+    url('fonts/icomoon.woff?z75145') format('woff'),
+    url('fonts/icomoon.svg?z75145#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-map:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-mail:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-basket:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-comments:before {
+  content: "\e904";
+  color: #ff7373;
+}
+.icon-mail_big:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-twit:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-faceb:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-pint:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-tube:before {
+  content: "\e909";
+  color: #fff;
+}
